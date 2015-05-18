@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="telpoo">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../android-telpoo-framework/telpoo" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../android-telpoo-framework/telpoo/gen" />
+      <root url="file://$PROJECT_DIR$/../../android-telpoo-framework/telpoo/src" />
+    </SOURCES>
+  </library>
+</component>

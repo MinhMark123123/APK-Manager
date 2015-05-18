@@ -1,0 +1,271 @@
+<!-- A DrawerLayout is intended to be used as the top-level content view using match_parent for both width and height to consume the full space available. -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgmenu"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/myUserinfo_menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bgprofile"
+            android:gravity="center_vertical"
+            android:paddingLeft="8.0dip"
+            android:paddingRight="10.0dip" >
+
+            <RelativeLayout
+                android:id="@+id/rl_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3.0dip" >
+
+                <ImageView
+                    android:id="@+id/img_avata"
+                    android:layout_width="62.0dip"
+                    android:layout_height="60.0dip"
+                    android:layout_centerVertical="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_launcher" />
+
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/img_avata"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_toRightOf="@+id/img_avata"
+                    android:text="@string/login"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/text_menu" />
+
+                <TextView
+                    android:id="@+id/tv_mail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/tv_name"
+                    android:layout_below="@+id/tv_name"
+                    android:text=""
+                    android:textColor="@color/text_menu" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_home"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/ic_menu_home"
+            android:drawablePadding="@dimen/margin_list_big"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/margin_menu_item"
+            android:paddingRight="@dimen/margin_menu"
+            android:text="@string/mn_trangchu"
+            android:textColor="@color/text_menu"
+            android:textSize="@dimen/text_menu" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0.9dip"
+            android:layout_marginLeft="@dimen/menu_left_indicator_width"
+            android:layout_marginRight="@dimen/margin_menu"
+            android:background="@color/menu_divider" />
+
+        <TextView
+            android:id="@+id/tv_yeuthich"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/ic_menu_favorites"
+            android:drawablePadding="@dimen/margin_list_big"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/margin_menu_item"
+            android:paddingRight="@dimen/margin_menu"
+            android:text="@string/mn_yeuthich"
+            android:textColor="@color/text_menu"
+            android:textSize="@dimen/text_menu" />
+
+        <TextView
+            android:id="@+id/tv_hethong"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/bg_category"
+            android:drawablePadding="@dimen/margin_list_big"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/margin_menu_item_category"
+            android:paddingRight="@dimen/margin_menu"
+            android:text="@string/mn_hethong"
+            android:textColor="@color/text_menu"
+            android:textSize="@dimen/text_menu"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_ql_ungdung"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/ic_menu_manager_app"
+            android:drawablePadding="@dimen/margin_list_big"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/margin_menu_item"
+            android:paddingRight="@dimen/margin_menu"
+            android:text="@string/mn_ql_ungdung"
+            android:textColor="@color/text_menu"
+            android:textSize="@dimen/text_menu" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0.9dip"
+            android:layout_marginLeft="@dimen/menu_left_indicator_width"
+            android:layout_marginRight="@dimen/margin_menu"
+            android:background="@color/menu_divider" />
+
+        <TextView
+            android:id="@+id/tv_ql_file_apk"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/ic_menu_manager_apk"
+            android:drawablePadding="@dimen/margin_list_big"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/margin_menu_item"
+            android:paddingRight="@dimen/margin_menu"
+            android:text="@string/mn_ql_apk"
+            android:textColor="@color/text_menu"
+            android:textSize="@dimen/text_menu" />
+
+        <TextView
+            android:id="@+id/tv_tienich"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/bg_category"
+            android:drawablePadding="@dimen/margin_list_big"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/margin_menu_item_category"
+            android:paddingRight="@dimen/margin_menu"
+            android:text="@string/mn_tienich"
+            android:textColor="@color/text_menu"
+            android:textSize="@dimen/text_menu"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_quyetmavach"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/ic_menu_scan_qrcode"
+            android:drawablePadding="@dimen/margin_list_big"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/margin_menu_item"
+            android:paddingRight="@dimen/margin_menu"
+            android:text="@string/mn_quyetmavach"
+            android:textColor="@color/text_menu"
+            android:textSize="@dimen/text_menu" />
+
+        <TextView
+            android:id="@+id/tv_congcu"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/bg_category"
+            android:drawablePadding="@dimen/margin_list_big"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/margin_menu_item_category"
+            android:paddingRight="@dimen/margin_menu"
+            android:text="@string/mn_congcu"
+            android:textColor="@color/text_menu"
+            android:textSize="@dimen/text_menu"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tv_caidat"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/ic_menu_setting"
+            android:drawablePadding="@dimen/margin_list_big"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/margin_menu_item"
+            android:paddingRight="@dimen/margin_menu"
+            android:text="@string/mn_caidat"
+            android:textColor="@color/text_menu"
+            android:textSize="@dimen/text_menu" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0.9dip"
+            android:layout_marginLeft="@dimen/menu_left_indicator_width"
+            android:layout_marginRight="@dimen/margin_menu"
+            android:background="@color/menu_divider" />
+
+        <TextView
+            android:id="@+id/tv_phanhoi"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/ic_menu_feedback"
+            android:drawablePadding="@dimen/margin_list_big"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/margin_menu_item"
+            android:paddingRight="@dimen/margin_menu"
+            android:text="@string/mn_phanhoi"
+            android:textColor="@color/text_menu"
+            android:textSize="@dimen/text_menu" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0.9dip"
+            android:layout_marginLeft="@dimen/menu_left_indicator_width"
+            android:layout_marginRight="@dimen/margin_menu"
+            android:background="@color/menu_divider" />
+        <TextView
+            android:id="@+id/tv_danhgia"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/ic_menu_rating"
+            android:drawablePadding="@dimen/margin_list_big"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/margin_menu_item"
+            android:paddingRight="@dimen/margin_menu"
+            android:text="@string/mn_danhgia"
+            android:textColor="@color/text_menu"
+            android:textSize="@dimen/text_menu" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0.9dip"
+            android:layout_marginLeft="@dimen/menu_left_indicator_width"
+            android:layout_marginRight="@dimen/margin_menu"
+            android:background="@color/menu_divider" />
+
+        <TextView
+            android:id="@+id/tv_dangxuat"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/ic_menu_logout"
+            android:drawablePadding="@dimen/margin_list_big"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/margin_menu_item"
+            android:paddingRight="@dimen/margin_menu"
+            android:text="@string/mn_dangxuat"
+            android:textColor="@color/text_menu"
+            android:textSize="@dimen/text_menu" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0.9dip"
+            android:layout_marginLeft="@dimen/menu_left_indicator_width"
+            android:layout_marginRight="@dimen/margin_menu"
+            android:background="@color/menu_divider" />
+
+        <TextView
+            android:id="@+id/tv_thoat"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/ic_menu_exit"
+            android:drawablePadding="@dimen/margin_list_big"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/margin_menu_item"
+            android:paddingRight="@dimen/margin_menu"
+            android:text="@string/mn_thoat"
+            android:textColor="@color/text_menu"
+            android:textSize="@dimen/text_menu" />
+    </LinearLayout>
+
+</ScrollView>

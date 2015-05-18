@@ -1,0 +1,29 @@
+<resources>
+
+    <color name="nen_xam">#e6e7e8</color>
+    <color name="bgactionbar">#bf3e11</color>
+    <color name="nen_xam_2">#ebebeb</color>
+     <color name="nen_xam_3">#aaabab</color>
+     <color name="trang">#ffffff</color>
+       
+    <color name="hong">#ff8686</color>
+    <color name="do1">#ed1c24</color>
+    <color name="bg">#f1f2f4</color>
+    <color name="bg_item_lv">#ffffff</color>
+    <color name="bg_viewpaperindicator">#195b6f</color>
+    <color name="bg_button">#a6d857</color>
+    <color name="title">#404040</color>
+    <color name="description">#545454</color>
+    <color name="bg_category">#50242424</color>
+    <color name="bg_normal">#ffffff</color>
+    <color name="text_normal">#46cd73</color>
+    <color name="bg_unsafe">#f69679</color>
+    <color name="text_unsafe">#ff0000</color>
+   
+    <color name="bg_careful">#f9aa4f</color>
+    <color name="text_menu">#ffffff</color>
+    <color name="menu_divider">#70242424</color>
+    <color name="menu_low_divider">#F6F7F8</color>
+
+    <color name="actionbar_color">#F4832D</color>
+</resources>

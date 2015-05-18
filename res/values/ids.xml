@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="dialogOk" type="id"></item>
+       <item name="dialogCancel" type="id"></item>
+
+</resources>

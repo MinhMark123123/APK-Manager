@@ -1,0 +1,4 @@
+diff a/.settings/org.eclipse.core.resources.prefs b/.settings/org.eclipse.core.resources.prefs	(rejected hunks)
+@@ -0,0 +1,2 @@
++eclipse.preferences.version=1
++encoding/<project>=UTF-8

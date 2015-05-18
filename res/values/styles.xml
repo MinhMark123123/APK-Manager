@@ -1,0 +1,124 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light"></style>
+
+    <style name="AppTheme" parent="AppBaseTheme"></style>
+
+    <style name="fw">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="ff">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="ww">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="card_view">
+        <item name="android:layout_width">@dimen/layout_card_width</item>
+        <item name="android:layout_height">@dimen/layout_card_height</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:background">@drawable/bg_item_lv</item>
+    </style>
+
+    <style name="image_listview">
+        <item name="android:layout_width">@dimen/image_more</item>
+        <item name="android:layout_height">@dimen/image_more</item>
+    </style>
+    <style name="image_main_listview">
+        <item name="android:layout_width">@dimen/size_logo_lv</item>
+        <item name="android:layout_height">@dimen/size_logo_lv</item>
+    </style>
+    
+
+    <style name="textmedium_listview">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+
+    <style name="textsmall_listview">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="textsmall_listview_apk">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+    <!-- setting activity -->
+    <style name="style_layoutsetting_bigitem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>           
+        <item name="android:background">@drawable/bg_item_lv</item> 
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:padding">5dp</item>
+    </style>
+    <style name="style_layoutsetting_item">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>           
+        <item name="android:layout_gravity">center</item>     
+    </style>
+    <style name="style_checkboxsetting_item">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>  
+    </style>
+
+     <style name="dialog_feedback">
+        <item name="android:layout_width">260dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/pading10</item>
+        <item name="android:background">@color/trang</item>
+    </style>
+    <style name="button_background">
+        <item name="android:background">@drawable/bg_button</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@android:color/white</item>
+       
+    </style>
+    <!-- dialog bar style -->
+    <style name="dialog_bar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:background">@color/actionbar_color</item>       
+    </style>
+    
+     
+     
+    <!-- ______________________google play actionbar________________________________________ -->
+    <style name="Widget.ActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <!-- <item name="android:background">@drawable/screen1</item> -->
+        <!-- Support library compatibility -->
+        <!-- <item name="background">@drawable/screen1</item> -->
+    </style>
+
+    <style name="Widget.ActionBar.Transparent">
+        <item name="android:background">@android:color/transparent</item>
+        <!-- support libary -->
+        <item name="background">@android:color/transparent</item>
+    </style>
+
+</resources>

@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.vgmobile.baokimv2.Home" >
+
+    <item
+        android:id="@+id/action_add_bank"
+        android:title=""
+        android:visible="false"
+        android:icon="@drawable/ic_launcher"
+        app:showAsAction="always"/>
+
+</menu>

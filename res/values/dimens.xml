@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--
+         Per the design guidelines, navigation drawers should be between 240dp and 320dp:
+         https://developer.android.com/design/patterns/navigation-drawer.html
+    -->
+    <dimen name="navigation_drawer_width">280dp</dimen>
+    <dimen name="heightbgtopmn">120dp</dimen>
+    <dimen name="avatar_size">120dp</dimen>
+    <dimen name="corner">5dp</dimen>
+    <dimen name="pading3">3dp</dimen>
+    <dimen name="pading5">5dp</dimen>
+    <dimen name="pading10">10dp</dimen>
+    <dimen name="pading15">15dp</dimen>    
+    <dimen name="pading20">20dp</dimen>
+    <dimen name="pading25">25dp</dimen>
+    <dimen name="pading30">30dp</dimen>
+    <dimen name="size_logo">40dp</dimen>
+    <dimen name="size_logo_listbank">60dp</dimen>
+    <dimen name="size_logo_lv">80dp</dimen>
+    <dimen name="size_text_title">16sp</dimen>
+    <dimen name="size_text_decrip">14sp</dimen>
+    <dimen name="text_menu">17.0sp</dimen>
+    <dimen name="margin_list_big">10.0dip</dimen>
+    <dimen name="margin_menu_item">20.0dip</dimen>
+    <dimen name="margin_menu_item_category">25.0dip</dimen>
+    <dimen name="margin_menu">10.0dip</dimen>
+    <dimen name="menu_left_indicator_width">7.0dip</dimen>
+    <!-- <dimen name="image_listview_width">70dp</dimen>
+    <dimen name="image_listview_height">70dp</dimen> -->
+    <dimen name="layout_card_width">0dp</dimen>
+    <dimen name="layout_card_height">165dp</dimen>
+    <dimen name="size_title_text">20sp</dimen>
+    <dimen name="image_more">90dp</dimen>
+
+</resources>

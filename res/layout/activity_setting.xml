@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/pading5"
+    android:paddingLeft="@dimen/pading10"
+    android:paddingRight="@dimen/pading10"
+    android:paddingTop="@dimen/pading5"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        style="@style/textmedium_listview"
+        android:text="Cài đặt thông báo"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1.5dp"
+            android:layout_marginLeft="@dimen/menu_left_indicator_width"
+            android:layout_marginRight="@dimen/margin_menu"
+            android:background="@color/menu_divider" />
+
+    <LinearLayout
+         style="@style/style_layoutsetting_bigitem"
+         android:layout_weight="2" >
+
+        <LinearLayout
+            style="@style/style_layoutsetting_item"
+            android:layout_weight="9"            
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                style="@style/textmedium_listview"
+                android:text="Nhận thông báo"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cho phép nhận thông báo"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/checkBox1"
+            style="@style/style_checkboxsetting_item"
+            android:layout_weight="1"
+             />
+
+    </LinearLayout>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1.5dp"
+            android:layout_marginLeft="@dimen/menu_left_indicator_width"
+            android:layout_marginRight="@dimen/margin_menu"
+            android:background="@color/menu_low_divider" />
+
+    <LinearLayout
+        style="@style/style_layoutsetting_bigitem"
+         android:layout_weight="2" >
+
+        <LinearLayout
+            style="@style/style_layoutsetting_item"
+            android:layout_weight="9"            
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                style="@style/textmedium_listview"
+                android:text="Thông báo cập nhật"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thông báo khi có cập nhật"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/checkBox1"
+            style="@style/style_checkboxsetting_item"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1.5dp"
+            android:layout_marginLeft="@dimen/menu_left_indicator_width"
+            android:layout_marginRight="@dimen/margin_menu"
+            android:background="@color/menu_low_divider" />
+
+    <LinearLayout
+        style="@style/style_layoutsetting_bigitem"
+         android:layout_weight="2" >
+
+        <LinearLayout
+            style="@style/style_layoutsetting_item"
+            android:layout_weight="9"            
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                 style="@style/textmedium_listview"
+                android:text="Cài đặt ngôn ngữ"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tiếng Việt"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/checkBox1"
+            style="@style/style_checkboxsetting_item"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        style="@style/textmedium_listview"
+        android:text="Cài đặt hệ thống"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1.5dp"
+            android:layout_marginLeft="@dimen/menu_left_indicator_width"
+            android:layout_marginRight="@dimen/margin_menu"
+            android:background="@color/menu_divider" />
+
+    <LinearLayout
+         style="@style/style_layoutsetting_bigitem"
+         android:layout_weight="2" >
+
+        <LinearLayout
+            style="@style/style_layoutsetting_item"
+            android:layout_weight="9"            
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                style="@style/textmedium_listview"
+                android:text="Tải đồng thời"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bỏ chọn để tải lần lượt"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/checkBox1"
+            style="@style/style_checkboxsetting_item"
+            android:layout_weight="1"
+             />
+
+    </LinearLayout>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1.5dp"
+            android:layout_marginLeft="@dimen/menu_left_indicator_width"
+            android:layout_marginRight="@dimen/margin_menu"
+            android:background="@color/menu_low_divider" />
+
+    <LinearLayout
+         style="@style/style_layoutsetting_bigitem"
+         android:layout_weight="2" >
+
+        <LinearLayout
+            style="@style/style_layoutsetting_item"
+            android:layout_weight="9"            
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                style="@style/textmedium_listview"
+                android:text="Tự động cài đặt"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tự động cài đặt sau khi tải xong(Yêu cầu root)"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/checkBox1"
+            style="@style/style_checkboxsetting_item"
+            android:layout_weight="1"
+             />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView5"
+        style="@style/textmedium_listview"
+        android:text="Hiển thị"
+        android:gravity="bottom"
+         android:layout_weight="1"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1.5dp"
+            android:layout_marginLeft="@dimen/menu_left_indicator_width"
+            android:layout_marginRight="@dimen/margin_menu"
+            android:background="@color/menu_divider" />
+
+    <LinearLayout
+       style="@style/style_layoutsetting_bigitem"
+         android:layout_weight="2" >
+
+        <LinearLayout
+            style="@style/style_layoutsetting_item"
+            android:layout_weight="9"            
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                style="@style/textmedium_listview"
+                android:text="Tải ảnh"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cho phép tải tất cả các ảnh"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/checkBox1"
+            style="@style/style_checkboxsetting_item"
+            android:layout_weight="1"
+             />
+
+    </LinearLayout>         
+    
+</LinearLayout>
+
+</ScrollView>
